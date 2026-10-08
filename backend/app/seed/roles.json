@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Data Analyst",
+    "description": "Turn messy business data into clear decisions using SQL, statistics, spreadsheets, and visual storytelling.",
+    "role_goal_threshold": 70,
+    "required_skills": [
+      { "id": "sql", "name": "SQL", "weight": 0.22 },
+      { "id": "statistics", "name": "Statistics", "weight": 0.18 },
+      { "id": "python-analytics", "name": "Python for Analytics", "weight": 0.18 },
+      { "id": "visualization", "name": "Data Visualization", "weight": 0.18 },
+      { "id": "spreadsheets", "name": "Spreadsheets", "weight": 0.12 },
+      { "id": "storytelling", "name": "Insight Storytelling", "weight": 0.12 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Software Developer",
+    "description": "Build reliable software by combining programming fundamentals, APIs, databases, testing, and collaborative workflows.",
+    "role_goal_threshold": 70,
+    "required_skills": [
+      { "id": "programming", "name": "Programming Fundamentals", "weight": 0.18 },
+      { "id": "data-structures", "name": "Data Structures", "weight": 0.16 },
+      { "id": "web-apis", "name": "Web APIs", "weight": 0.18 },
+      { "id": "databases", "name": "Databases", "weight": 0.16 },
+      { "id": "git", "name": "Version Control", "weight": 0.10 },
+      { "id": "testing", "name": "Testing", "weight": 0.10 },
+      { "id": "code-quality", "name": "Code Quality", "weight": 0.12 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Machine Learning Engineer",
+    "description": "Move from data to useful models with Python, math fundamentals, ML workflows, evaluation, and practical engineering habits.",
+    "role_goal_threshold": 70,
+    "required_skills": [
+      { "id": "python-ml", "name": "Python for ML", "weight": 0.15 },
+      { "id": "ml-math", "name": "ML Math Foundations", "weight": 0.12 },
+      { "id": "ml-fundamentals", "name": "Machine Learning Fundamentals", "weight": 0.20 },
+      { "id": "data-prep", "name": "Data Preprocessing", "weight": 0.13 },
+      { "id": "model-eval", "name": "Model Evaluation", "weight": 0.13 },
+      { "id": "ml-engineering", "name": "ML Engineering Practices", "weight": 0.15 },
+      { "id": "ml-communication", "name": "Experiment Communication", "weight": 0.12 }
+    ]
+  }
+]

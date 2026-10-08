@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "role_id": 1,
+    "title": "Data Analyst Intern",
+    "company": "Northstar Retail",
+    "location": "Bengaluru, India",
+    "work_mode": "Hybrid",
+    "description": "Support weekly sales reporting, SQL extracts, and dashboard updates for store operations.",
+    "required_skills": ["sql", "spreadsheets", "visualization"],
+    "application_url": "https://example.com/internships/northstar-data-analyst",
+    "is_demo_data": true
+  },
+  {
+    "id": 2,
+    "role_id": 1,
+    "title": "Business Insights Intern",
+    "company": "Harbor Payments",
+    "location": "Remote, India",
+    "work_mode": "Remote",
+    "description": "Investigate merchant trends, write SQL, and present short insight notes to product managers.",
+    "required_skills": ["sql", "statistics", "storytelling"],
+    "application_url": "https://example.com/internships/harbor-insights",
+    "is_demo_data": true
+  },
+  {
+    "id": 3,
+    "role_id": 1,
+    "title": "Analytics Intern",
+    "company": "Lumen Health",
+    "location": "Hyderabad, India",
+    "work_mode": "On-site",
+    "description": "Clean health-ops datasets in Python and help the team explain metric changes to clinic leads.",
+    "required_skills": ["python-analytics", "statistics", "visualization", "storytelling"],
+    "application_url": "https://example.com/internships/lumen-analytics",
+    "is_demo_data": true
+  },
+  {
+    "id": 4,
+    "role_id": 2,
+    "title": "Software Developer Intern",
+    "company": "PixelForge",
+    "location": "Pune, India",
+    "work_mode": "Hybrid",
+    "description": "Ship small backend features, write tests, and participate in code review on a product squad.",
+    "required_skills": ["programming", "git", "web-apis", "testing"],
+    "application_url": "https://example.com/internships/pixelforge-swe",
+    "is_demo_data": true
+  },
+  {
+    "id": 5,
+    "role_id": 2,
+    "title": "Backend Intern",
+    "company": "RouteCloud",
+    "location": "Remote, India",
+    "work_mode": "Remote",
+    "description": "Help design REST endpoints and persist data for an internal logistics tool.",
+    "required_skills": ["web-apis", "databases", "programming"],
+    "application_url": "https://example.com/internships/routecloud-backend",
+    "is_demo_data": true
+  },
+  {
+    "id": 6,
+    "role_id": 2,
+    "title": "Full-Stack Intern",
+    "company": "CampusStack",
+    "location": "Chennai, India",
+    "work_mode": "On-site",
+    "description": "Build student-facing pages and connect them to existing APIs with attention to code quality.",
+    "required_skills": ["programming", "web-apis", "git", "code-quality"],
+    "application_url": "https://example.com/internships/campusstack-fullstack",
+    "is_demo_data": true
+  },
+  {
+    "id": 7,
+    "role_id": 3,
+    "title": "Machine Learning Intern",
+    "company": "Helix Labs",
+    "location": "Bengaluru, India",
+    "work_mode": "Hybrid",
+    "description": "Clean datasets, train baseline models, and write evaluation notes for a recommendation experiment.",
+    "required_skills": ["python-ml", "ml-fundamentals", "data-prep", "model-eval"],
+    "application_url": "https://example.com/internships/helix-ml",
+    "is_demo_data": true
+  },
+  {
+    "id": 8,
+    "role_id": 3,
+    "title": "Applied ML Intern",
+    "company": "Nimbus Weather",
+    "location": "Remote, India",
+    "work_mode": "Remote",
+    "description": "Prototype tabular models and document metric tradeoffs for an internal forecasting tool.",
+    "required_skills": ["ml-fundamentals", "model-eval", "ml-communication"],
+    "application_url": "https://example.com/internships/nimbus-applied-ml",
+    "is_demo_data": true
+  },
+  {
+    "id": 9,
+    "role_id": 3,
+    "title": "ML Engineering Intern",
+    "company": "Forge Robotics",
+    "location": "Pune, India",
+    "work_mode": "On-site",
+    "description": "Help package a notebook model into a simple service and keep experiment folders reproducible.",
+    "required_skills": ["python-ml", "ml-engineering", "data-prep"],
+    "application_url": "https://example.com/internships/forge-ml-eng",
+    "is_demo_data": true
+  }
+]

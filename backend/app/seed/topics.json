@@ -1,0 +1,62 @@
+[
+  { "id": 1, "module_id": 1, "title": "What Data Analysts Actually Do", "description": "Map the analyst workflow from a business question to a recommendation a manager can act on.", "skill_tags": ["storytelling"], "estimated_minutes": 35, "order_index": 1 },
+  { "id": 2, "module_id": 1, "title": "Asking Better Data Questions", "description": "Turn vague requests like 'look at sales' into scoped questions, metrics, and constraints.", "skill_tags": ["storytelling", "statistics"], "estimated_minutes": 40, "order_index": 2 },
+  { "id": 3, "module_id": 1, "title": "Data Types, Tables, and Quality Checks", "description": "Recognize messy fields, missing values, and why quality checks come before charts.", "skill_tags": ["spreadsheets", "python-analytics"], "estimated_minutes": 45, "order_index": 3 },
+  { "id": 4, "module_id": 1, "title": "Choosing the Right Analysis Tool", "description": "Decide when a spreadsheet is enough and when SQL or Python is the better next step.", "skill_tags": ["spreadsheets", "sql", "python-analytics"], "estimated_minutes": 30, "order_index": 4 },
+
+  { "id": 5, "module_id": 2, "title": "SELECT, WHERE, and Filtering", "description": "Pull the exact rows an analyst needs from a large table without dumping everything.", "skill_tags": ["sql"], "estimated_minutes": 45, "order_index": 1 },
+  { "id": 6, "module_id": 2, "title": "Aggregations and GROUP BY", "description": "Summarize orders, users, or campaigns into weekly and monthly metrics.", "skill_tags": ["sql", "statistics"], "estimated_minutes": 50, "order_index": 2 },
+  { "id": 7, "module_id": 2, "title": "SQL Joins for Analysts", "description": "Combine customers, orders, and products so one question can use multiple tables.", "skill_tags": ["sql"], "estimated_minutes": 55, "order_index": 3 },
+  { "id": 8, "module_id": 2, "title": "Window Functions for Trends", "description": "Compare each week to the previous week and rank products without collapsing the detail.", "skill_tags": ["sql"], "estimated_minutes": 60, "order_index": 4 },
+  { "id": 9, "module_id": 2, "title": "Writing Queries Others Can Trust", "description": "Name columns clearly, comment assumptions, and check row counts before sharing a result.", "skill_tags": ["sql", "storytelling"], "estimated_minutes": 40, "order_index": 5 },
+
+  { "id": 10, "module_id": 3, "title": "Descriptive Statistics in Practice", "description": "Use mean, median, and spread to describe a metric without overclaiming.", "skill_tags": ["statistics"], "estimated_minutes": 45, "order_index": 1 },
+  { "id": 11, "module_id": 3, "title": "Distributions, Outliers, and Sanity Checks", "description": "Spot outliers that would distort a dashboard or a stakeholder update.", "skill_tags": ["statistics", "spreadsheets"], "estimated_minutes": 45, "order_index": 2 },
+  { "id": 12, "module_id": 3, "title": "Spreadsheet Analysis Workflows", "description": "Clean, pivot, and document a spreadsheet so another intern can reproduce the number.", "skill_tags": ["spreadsheets"], "estimated_minutes": 50, "order_index": 3 },
+  { "id": 13, "module_id": 3, "title": "Python for Analysts: Pandas Basics", "description": "Load a CSV, filter rows, and compute group summaries in Pandas.", "skill_tags": ["python-analytics"], "estimated_minutes": 60, "order_index": 4 },
+
+  { "id": 14, "module_id": 4, "title": "Choosing Charts That Answer the Question", "description": "Match bar, line, and scatter charts to comparison, trend, and relationship questions.", "skill_tags": ["visualization"], "estimated_minutes": 40, "order_index": 1 },
+  { "id": 15, "module_id": 4, "title": "Dashboard Layout and Hierarchy", "description": "Design a dashboard so the decision-maker sees the headline metric first.", "skill_tags": ["visualization", "storytelling"], "estimated_minutes": 45, "order_index": 2 },
+  { "id": 16, "module_id": 4, "title": "Dashboard Storytelling", "description": "Write the so-what: context, finding, implication, and recommended next action.", "skill_tags": ["storytelling", "visualization"], "estimated_minutes": 40, "order_index": 3 },
+  { "id": 17, "module_id": 4, "title": "Presenting Analyst Findings", "description": "Practice a short readout that a product or operations teammate can follow.", "skill_tags": ["storytelling"], "estimated_minutes": 35, "order_index": 4 },
+
+  { "id": 18, "module_id": 5, "title": "How Software Developers Work", "description": "See how tickets, reviews, and small pull requests turn a feature into shipped code.", "skill_tags": ["code-quality"], "estimated_minutes": 30, "order_index": 1 },
+  { "id": 19, "module_id": 5, "title": "Programming Building Blocks", "description": "Use variables, control flow, functions, and errors to solve small product tasks.", "skill_tags": ["programming"], "estimated_minutes": 55, "order_index": 2 },
+  { "id": 20, "module_id": 5, "title": "Working with Collections and Strings", "description": "Transform lists, maps, and text the way an API handler or UI helper often must.", "skill_tags": ["programming"], "estimated_minutes": 50, "order_index": 3 },
+  { "id": 21, "module_id": 5, "title": "Reading and Breaking Down Problems", "description": "Split a vague feature request into inputs, outputs, edge cases, and test examples.", "skill_tags": ["programming", "code-quality"], "estimated_minutes": 40, "order_index": 4 },
+
+  { "id": 22, "module_id": 6, "title": "Arrays, Lists, and Hash Maps", "description": "Pick the structure that makes lookup, insert, and grouping efficient enough for app code.", "skill_tags": ["data-structures"], "estimated_minutes": 50, "order_index": 1 },
+  { "id": 23, "module_id": 6, "title": "Stacks, Queues, and Trees in Practice", "description": "Connect common structures to undo stacks, job queues, and nested UI or file data.", "skill_tags": ["data-structures"], "estimated_minutes": 55, "order_index": 2 },
+  { "id": 24, "module_id": 6, "title": "Git for Daily Development", "description": "Commit, branch, and recover work without rewriting shared history by accident.", "skill_tags": ["git"], "estimated_minutes": 45, "order_index": 3 },
+  { "id": 25, "module_id": 6, "title": "Pull Requests and Code Review", "description": "Write a reviewable PR and respond to feedback the way a junior engineer is expected to.", "skill_tags": ["git", "code-quality"], "estimated_minutes": 40, "order_index": 4 },
+
+  { "id": 26, "module_id": 7, "title": "HTTP and REST APIs", "description": "Use methods, status codes, and JSON payloads to talk to another service.", "skill_tags": ["web-apis"], "estimated_minutes": 50, "order_index": 1 },
+  { "id": 27, "module_id": 7, "title": "Designing Simple Endpoints", "description": "Sketch request and response shapes for create, read, and update flows.", "skill_tags": ["web-apis"], "estimated_minutes": 45, "order_index": 2 },
+  { "id": 28, "module_id": 7, "title": "Relational Database Basics", "description": "Model tables, keys, and relationships for users, posts, or orders.", "skill_tags": ["databases"], "estimated_minutes": 50, "order_index": 3 },
+  { "id": 29, "module_id": 7, "title": "Querying and Persisting Application Data", "description": "Read and write records safely from application code without hiding SQL mistakes.", "skill_tags": ["databases"], "estimated_minutes": 55, "order_index": 4 },
+  { "id": 30, "module_id": 7, "title": "Connecting APIs to a Database", "description": "Walk a request from HTTP handler to stored data and back to the client.", "skill_tags": ["web-apis", "databases"], "estimated_minutes": 60, "order_index": 5 },
+
+  { "id": 31, "module_id": 8, "title": "Writing Tests That Catch Real Bugs", "description": "Cover happy paths and edge cases so a refactor does not silently break a feature.", "skill_tags": ["testing"], "estimated_minutes": 50, "order_index": 1 },
+  { "id": 32, "module_id": 8, "title": "Debugging with a Repeatable Process", "description": "Reproduce, isolate, and fix a defect instead of guessing in production.", "skill_tags": ["testing", "code-quality"], "estimated_minutes": 40, "order_index": 2 },
+  { "id": 33, "module_id": 8, "title": "Readable Code and Small PRs", "description": "Name things clearly, keep changes focused, and leave the next intern a path to follow.", "skill_tags": ["code-quality"], "estimated_minutes": 35, "order_index": 3 },
+
+  { "id": 34, "module_id": 9, "title": "What ML Engineers Actually Build", "description": "Separate research notebooks from the data, evaluation, and deployment work of the role.", "skill_tags": ["ml-communication", "ml-engineering"], "estimated_minutes": 35, "order_index": 1 },
+  { "id": 35, "module_id": 9, "title": "Python for Machine Learning", "description": "Use NumPy and Pandas to inspect arrays, tables, and simple feature columns.", "skill_tags": ["python-ml"], "estimated_minutes": 55, "order_index": 2 },
+  { "id": 36, "module_id": 9, "title": "Vectors, Matrices, and Notation", "description": "Read the linear-algebra language that shows up in model docs without panic.", "skill_tags": ["ml-math"], "estimated_minutes": 50, "order_index": 3 },
+  { "id": 37, "module_id": 9, "title": "Probability Intuition for Models", "description": "Connect uncertainty, sampling, and error to why a model can be confidently wrong.", "skill_tags": ["ml-math", "model-eval"], "estimated_minutes": 50, "order_index": 4 },
+
+  { "id": 38, "module_id": 10, "title": "Supervised vs Unsupervised Learning", "description": "Choose a learning setup based on whether labeled outcomes exist.", "skill_tags": ["ml-fundamentals"], "estimated_minutes": 40, "order_index": 1 },
+  { "id": 39, "module_id": 10, "title": "Linear Models and Baselines", "description": "Fit a simple baseline first so a fancier model has something honest to beat.", "skill_tags": ["ml-fundamentals", "model-eval"], "estimated_minutes": 50, "order_index": 2 },
+  { "id": 40, "module_id": 10, "title": "Decision Trees and Ensembles", "description": "See how split-based models capture non-linear patterns in tabular data.", "skill_tags": ["ml-fundamentals"], "estimated_minutes": 50, "order_index": 3 },
+  { "id": 41, "module_id": 10, "title": "Neural Network Intuition", "description": "Understand layers, loss, and overfitting at a practical level before diving deeper.", "skill_tags": ["ml-fundamentals", "ml-math"], "estimated_minutes": 55, "order_index": 4 },
+  { "id": 42, "module_id": 10, "title": "Choosing a Model for the Job", "description": "Trade off interpretability, data size, and latency the way a product team would.", "skill_tags": ["ml-fundamentals", "ml-communication"], "estimated_minutes": 40, "order_index": 5 },
+
+  { "id": 43, "module_id": 11, "title": "Cleaning and Splitting Data", "description": "Handle leakage, missing values, and train/validation/test splits with intent.", "skill_tags": ["data-prep"], "estimated_minutes": 50, "order_index": 1 },
+  { "id": 44, "module_id": 11, "title": "Feature Thinking for Tabular Problems", "description": "Create features that encode real-world structure instead of dumping every column.", "skill_tags": ["data-prep", "ml-fundamentals"], "estimated_minutes": 50, "order_index": 2 },
+  { "id": 45, "module_id": 11, "title": "Training Loops and Experiment Notes", "description": "Track what you changed so a result can be reproduced next week.", "skill_tags": ["ml-engineering", "ml-communication"], "estimated_minutes": 45, "order_index": 3 },
+  { "id": 46, "module_id": 11, "title": "Metrics That Match the Goal", "description": "Pick accuracy, precision, recall, or error metrics based on the cost of mistakes.", "skill_tags": ["model-eval"], "estimated_minutes": 50, "order_index": 4 },
+
+  { "id": 47, "module_id": 12, "title": "Evaluating Beyond a Single Score", "description": "Look at slices, confusion, and failure cases before calling a model ready.", "skill_tags": ["model-eval", "ml-communication"], "estimated_minutes": 45, "order_index": 1 },
+  { "id": 48, "module_id": 12, "title": "Reproducible Experiment Folders", "description": "Keep data versions, configs, and notes together so teammates can rerun your work.", "skill_tags": ["ml-engineering"], "estimated_minutes": 40, "order_index": 2 },
+  { "id": 49, "module_id": 12, "title": "From Notebook to a Simple Service", "description": "Wrap a trained model behind a basic prediction API and document its limits.", "skill_tags": ["ml-engineering", "python-ml"], "estimated_minutes": 55, "order_index": 3 }
+]
